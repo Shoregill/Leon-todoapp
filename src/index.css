@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1, 1, 1, 1;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 28px;
+  background-color: #0a7882;
+  padding: 2em;
+}
+
+text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1, 1, 1, 1;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 28px;
+  padding: 2em;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.todo {
+  cursor: pointer;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.strike {
+  text-decoration: line-through;
+}
